@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>DIGITF</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- fontawsome link here -->
+        <link rel="stylesheet" href="./assets/fontawsome/css/all.min.css" />
+
+        <!-- slick slider css, theme css link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+        <!-- main css link here -->
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <!-- Header Start here -->
+            <header>
+                <div class="hero-bg">
+                    <div class="curve-bg">
+                        <nav>
+                            <div class="nav-left">
+                                <div class="logo">
+                                    <a href="./index.html"> <img src="./assets/images/header/logo.png" alt="logo image" /> </a>
+                                </div>
+                                <div class="nav-link">
+                                    <ul class="">
+                                        <li><a href="./index.html" class="active">HOME</a></li>
+                                        <li><a href="#about-us">ABOUT</a></li>
+                                        <li><a href="#shop">SHOP</a></li>
+                                        <li><a href="#furniture">FURNITURE</a></li>
+                                        <li><a href="#contact">CONTACT US</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="nav-right">
+                                <div>
+                                    <a href="#" id="myBtn"><i class="fa-solid fa-user"></i> Login</a>
+                                    <div id="myModal" class="modal">
+                                        <div class="modal-content">
+                                           <span class="Login-text">Log in</span>
+                                            <span class="close">
+                                                <i class="fa-solid fa-xmark"></i>
+                                            </span>
+                                            <div class="login-form-wrapper">
+                                                <form action="" >
+                                                    <input type="email" placeholder="Enter Your Email" required> <br>
+                                                    <input type="password" name="password" placeholder="Enter Your Password">
+                                                    <div class="forget-wrpper">
+                                                        <a href="#" class="forget">Forget Password?</a>
+                                                    </div>
+                                                    <div class="log-in-btn-wrpper">
+                                                        <button type="submit" class="log-in-btn">Login</button>
+                                                    </div>
+                                                    <div class="create-accound-wrapper">
+                                                        <a href="#"> Create an Account</a>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                      
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <a href="#" id="searchbtn"> <i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <div id="searchbox" class="searchouter">
+                                        <div class="search-wrapper">
+                                            <span class="closesearch">
+                                                <i class="fa-solid fa-xmark"></i>
+                                            </span>
+                                            <div>
+                                                <form action="" class="search-form">
+                                                    <input type="search" name="" placeholder="Search Here">
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="side-nav">
+                                    <div>
+                                        <div id="mySidenav" class="sidenav nav-link">
+                                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa-solid fa-xmark"></i></a>
+                                            <ul class="link">
+                                                <li><a href="./index.html" class="active">HOME</a></li>
+                                                <li><a href="#about-us">ABOUT</a></li>
+                                                <li><a href="#shop">SHOP</a></li>
+                                                <li><a href="#furniture">FURNITURE</a></li>
+                                                <li><a href="#contact">CONTACT US</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <a href="#" onclick="openNav()">
+                                            <span class="top-line"></span>
+                                            <span class="center-line"></span>
+                                            <span class="bottom-line"></span> 
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                        <div class="slider-wrapper">
+                            <div class="container">
+                                <div class="slider-main-wrapper responsive">
+                                    <div class="slide-1 slide">
+										<div class="slide-info">
+											<h4>THE LATEST</h4>
+											<h3>FURNITURE</h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+											<a href="#" class="black-btn">READ MORE</a>
+											<a href="#" class="black-btn btn-2">CONTACT US</a>
+										</div>
+										<div class="slide-img">
+											<img src="./assets/images/hero-slider-img/slider-img.png" alt="Chair image" />
+                                            <span class="slide-no">
+                                                <del>01</del>
+                                            </span>
+										</div>
+                                       
+                                    </div>
+                                    <div class="slide-2 slide">
+										<div class="slide-info">
+											<h4>THE LATEST</h4>
+											<h3>BEDS</h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+											<a href="#" class="black-btn">READ MORE</a>
+											<a href="#" class="black-btn btn-2">CONTACT US</a>
+										</div>
+										<div class="slide-img">
+											<img src="./assets/images/hero-slider-img/bed-removebg-preview-removebg-preview-removebg-preview.png"  alt="Chair image" />
+                                            <span class="slide-no">
+                                                <del>02</del>
+                                            </span>
+										</div>
+                                    </div>
+                                    <div class="slide-3 slide">
+										<div class="slide-info">
+											<h4>THE LATEST</h4>
+											<h3>TABLE</h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+											<a href="#" class="black-btn">READ MORE</a>
+											<a href="#" class="black-btn btn-2">CONTACT US</a>
+										</div>
+										<div class="slide-img">
+											<img src="./assets/images/hero-slider-img/table.png" alt="Chair image" />
+                                            <span class="slide-no">
+                                                <del>03</del>
+                                            </span>
+										</div>
+                                    </div>
+                                    <div class="slide-4 slide">
+										<div class="slide-info">
+											<h4>THE LATEST</h4>
+											<h3>Chairs</h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+											<a href="#" class="black-btn">READ MORE</a>
+											<a href="#" class="black-btn btn-2">CONTACT US</a>
+										</div>
+										<div class="slide-img">
+											<img src="./assets/images/hero-slider-img/slider-img.png" alt="Chair image" />
+                                            <span class="slide-no">
+                                                <del>04</del>
+                                            </span>
+										</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="play-btn-wrapper">
+                            <a href="#" class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        <!-- Header End here -->
+        
+        <!-- About container Start here -->
+            <div class="container" id="about-us">
+                <div class="about-wrapper">
+                    <div class="about-info">
+                        <div class="section-heading">
+                            <h2 class="section-heading-h2">About Us</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                            <a href="#" class="black-btn">Read More</a>
+                        </div>
+                    </div>
+                    <div class="about-img">
+                        <img src="./assets/images/about-us-img/about-img.png" alt="About Image">
+                    </div>
+                </div>
+            </div>
+        <!-- About container End here -->
+
+        <!-- Trending Categories container Start here -->
+            <div class="trending-wrapper" id="furniture">
+                <div class="container">
+                    <div class="section-heading">
+                        <h2>Trending Categories</h2>
+                    </div>  
+                    <div class="tab-wrapper">
+                        <div class="trending-left">
+                            <div>
+                                <button class="tablinks" onclick="openCity(event, 'chair')" id="defaultOpen"> <span>01</span>  Chairs</button>
+                                <button class="tablinks" onclick="openCity(event, 'tables')"><span>02</span> Tables</button>
+                                <button class="tablinks" onclick="openCity(event, 'beds')"> <span>03</span> Beds</button>
+                                <button class="tablinks" onclick="openCity(event, 'furnitures')"> <span>04</span> Furniture</button>
+                            </div>
+                        </div>
+                        <div class="trending-right">
+                            <div class="chair tabcontent" id="chair">
+                                <div class="trending-left-img">
+                                    <div>
+                                        <img src="./assets/images/trending categories/left-1.png" alt="chair image" />
+                                    </div>
+                                    <div>
+                                        <img src="./assets/images/trending categories/trending-left-2.png" alt="chair image" />
+                                    </div>
+                                </div>
+                                <div class="tranding-right-img">
+                                    <div>
+                                        <img src="./assets/images/trending categories/treandin-right-1.png" alt="chair image" />
+                                    </div>
+                                    <div>
+                                        <img src="./assets/images/trending categories/treandin-right-2.png" alt="chair image" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tables tabcontent" id="tables">
+                                <div class="table-img-wrpper">
+                                    <div class="table-left">
+                                        <div>
+                                            <img src="./assets/images/trending categories/New folder/table/table-1.jpg" alt="Table image" />
+                                        </div>
+                                        <div>
+                                            <img src="./assets/images/trending categories/New folder/table/table-2.jpg" alt="Table image" />
+                                        </div>
+                                    </div>
+                                    <div class="table-right">
+                                        <div>
+                                            <img src="./assets/images/trending categories/New folder/table/table-3.jpg" alt="Table image" />
+                                        </div>
+                                        <div>
+                                            <img src="./assets/images/trending categories/New folder/table/table-4.jpg" alt="Table image" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="beds tabcontent" id="beds">
+                                <div class="beds-img-wrapper">
+                                    <div class="left-beds">
+                                        <div>
+                                            <img src="./assets/images/trending categories/New folder/bed/bed-1.jpg" alt="Bed image" />
+                                        </div>
+                                        <div>
+                                            <img src="./assets/images/trending categories/New folder/bed/bed-2.jpg" alt="Bed image" />
+                                        </div>
+                                    </div>
+                                    <div class="right-beds">
+                                        <div>
+                                            <img src="./assets/images/trending categories/New folder/bed/bed-3.jpg" alt="Beds image" />
+                                        </div>
+                                        <div>
+                                            <img src="./assets/images/trending categories/New folder/bed/bed-4.jpg" alt="Beds image" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="furnitures tabcontent" id="furnitures">
+                                <div class="furniture-img-wrapper">
+                                    <div class="left-furniture">
+                                        <div>
+                                            <img src="./assets/images/trending categories/New folder/furniture/furniture-1.jpg" alt="furniture image" />
+                                        </div>
+                                        <div>
+                                            <img src="./assets/images/trending categories/New folder/furniture/furniturer-2.jpg" alt="furniture image" />
+                                        </div>
+                                    </div>
+                                    <div class="right-furniture">
+                                        <div>
+                                            <img src="./assets/images/trending categories/New folder/furniture/furniture-3.jpg" alt="furniture image" />
+                                        </div>
+                                        <div>
+                                            <img src="./assets/images/trending categories/New folder/furniture/furniture-4.jpg" alt="furniture image" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        <!-- Trending Categories container End here -->
+
+        <!-- Leatest Collection container Start here -->
+            <div class="container">
+                <div class="latest-collection-wrapper">
+                    <div class="leatest-info">
+                        <h4>The Latest Collection</h4>
+                        <h3>50% DISCOUNT</h3>
+                        <a href="#" class="black-btn">Buy Now</a>
+                    </div>
+                    <div class="latest-img">
+                        <img src="./assets/images/leatest collection/leatest-right-img.png" alt="Latest Collection Chair image" />
+                    </div>
+                </div>
+            </div>
+        <!-- Leatest collection container End here -->
+        
+        <!-- Feature Brand container Start here -->
+            <div class="container" id="shop">
+                <div class="feature-brand-wrapper">
+                    <div class="section-heading">
+                        <h2>Featured Brands</h2>
+                    </div>
+                    <div class="choose-item-wrapper">
+                        <div class="item">
+                            <a href="#">New</a>
+                            <img src="./assets/images/brand/feature-brand.png" alt="Featured Brand Chair Image">
+                            <div class="item-info">
+                                <span class="price">$ 100</span>
+                                <p>Chair</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="#">New</a>
+                            <img src="./assets/images/brand/feature-brand.png" alt="Featured Brand Chair Image">
+                            <div class="item-info">
+                                <span class="price">$ 100</span>
+                                <p>Chair</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="#">New</a>
+                            <img src="./assets/images/brand/feature-brand.png" alt="Featured Brand Chair Image">
+                            <div class="item-info">
+                                <span class="price">$ 100</span>
+                                <p>Chair</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="#">New</a>
+                            <img src="./assets/images/brand/feature-brand.png" alt="Featured Brand Chair Image">
+                            <div class="item-info">
+                                <span class="price">$ 100</span>
+                                <p>Chair</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="black-btn"> See More</a>
+                </div>
+            </div>
+        <!-- Feature Brand container Start here -->
+
+        <!-- Contact Us container Start here -->
+            <div class="container" id="contact">
+                <div class="contact-main-wrapper">
+                    <div class="section-heading">
+                        <h2>Contact Us</h2>
+                    </div>
+                    <div class="contact-wrapper">
+                        <div class="contact-left-info">
+                            <form action="">
+                                <input type="text" placeholder="Name"> <br>
+                                <input type="email" name="email" placeholder="Email"><br>
+                                <input type="tel" name="phone number" placeholder="Phone"><br>
+                                <textarea name="message" cols="30" rows="3" placeholder="Message"></textarea><br>
+                                <button type="submit">SEND</button>
+                            </form>
+                        </div>
+                        <div class="contact-right-info">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.230982602271!2d73.7983914145439!3d18.563622372701914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf410ab510f5%3A0x9e5183f4e4948c39!2sGeexu%20Technology!5e0!3m2!1sen!2sin!4v1644651098110!5m2!1sen!2sin" width="500" height="300" style="border:0;" allowfullscreen="" ></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- Contact Us container End here -->
+        
+        <!-- Testimonial Container Start here -->
+            <div class="container">
+                <div class="testimonial-wrapper">
+                    <div class="section-heading">
+                        <h2>Testimonial</h2>
+                    </div>
+                    <div class="testimonial-wrapper">
+                        <div class="card-wrapper">
+                            <div class="slide-info card-1">
+                                <div class="person-info">
+                                    <div>
+                                        <img src="./assets/images/testimonial/testimonial-1.png" alt="Magna image" />
+                                    </div>
+                                    <div class="name-position">
+                                        <h3>Magna</h3>
+                                        <p>Consectetur adipiscing</p>
+                                    </div>
+                                </div>
+                                <div class="comment">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrudLorem ipsum</p>
+                                    <a href="#"> <i class="fa-solid fa-left-long"></i> </a>
+                                </div>
+                            </div>
+                            <div class="slide-info card-2">
+                                <div class="person-info">
+                                    <div>
+                                        <img src="./assets/images/testimonial/testimonial-2.png" alt="Aliqua image" />
+                                    </div>
+                                    <div class="name-position">
+                                        <h3>Aliqua</h3>
+                                        <p>Consectetur adipiscing</p>
+                                    </div>
+                                </div>
+                                <div class="comment">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrudLorem ipsum</p>
+                                    <a href="#"> <i class="fa-solid fa-left-long"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- Testimonial Container Start here -->
+
+        <!-- footer start here -->
+            <footer>
+                <div class="container">
+                    <div class="footer-head">
+                        <h5>DIGITF</h5>
+                    </div>
+                    <div class="footer-info-wrapper">
+                        <div class="about-shop">
+                            <h6 class="footer-info-warpper-h6">About Shop</h6>
+
+                            <ul>
+                                <li> <a href="#"> <i class="fa-solid fa-location-dot"></i> Address</a> </li>
+                                <li> <a href=""> <i class="fa-solid fa-mobile-screen-button"></i> +01 123456789</a> </li>
+                                <li> <a href=""> <i class="fa-solid fa-envelope"></i> demo@gmail.com</a> </li>
+                            </ul>
+                        </div>
+
+                        <div class="information">
+                            <h6 class="footer-info-warpper-h6">Informations</h6>
+                            <p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                        </div>
+
+                        <div class="instagram">
+                            <h6 class="footer-info-warpper-h6">Instagram</h6>
+                            <div class="insta-img-wrapper">
+                                <div class="insta-img-line-1">
+                                    <div>
+                                       <a href="https://www.instagram.com"  target="_blank">
+                                        <img src="./assets/images/footer instagram/footer-insta-1.png" alt="Instagram image" />
+                                       </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://www.instagram.com"  target="_blank">
+                                            <img src="./assets/images/footer instagram/footer-insta-2.png" alt="Instagram image" />
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="insta-img-line-2">
+                                    <div>
+                                       <a href="https://www.instagram.com"  target="_blank">
+                                        <img src="./assets/images/footer instagram/footer-insta-3.png" alt="Instagram image" />
+                                       </a>
+                                    </div>
+                                    <div>
+                                       <a href="https://www.instagram.com"  target="_blank">
+                                        <img src="./assets/images/footer instagram/footer-insta-4.png" alt="Instagram image" />
+                                       </a>
+                                    </div>
+                                </div>
+
+                                <div class="insta-img-line-3">
+                                    <div>
+                                       <a href="https://www.instagram.com/"  target="_blank">
+                                        <img src="./assets/images/footer instagram/footer-insta-5.png" alt="Instagram image" />
+                                       </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://www.instagram.com/" target="_blank">
+                                            <img src="./assets/images/footer instagram/footer-insta-6.png" alt="Instagram image" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="newsletter">
+                            <h6 class="footer-info-warpper-h6">NEWSLETTER</h6>
+                            <form action="">
+                                <input type="email" name="email" placeholder="Enter your email" required><br>
+
+                                <button type="submit">
+                                    SUBSCRIBE
+                                </button>
+                            </form>
+
+                            <div class="social-link">
+                                <ul>
+                                    <li> <a href="https://www.facebook.com/"> <i class="fa-brands fa-facebook-f"></i> </a></li>
+                                    <li> <a href="https://twitter.com/"> <i class="fa-brands fa-twitter"></i> </a> </li>
+                                    <li> <a href="https://www.linkedin.com"> <i class="fa-brands fa-linkedin-in"></i> </a></li>
+                                    <li> <a href="https://www.youtube.com/"> <i class="fa-brands fa-youtube"></i> </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copywrite">
+                    <p>&copy; 2019 All Rights Reserved.Free html Template</p>
+                </div>
+            </footer>
+        <!-- footer end here -->
+
+        <!-- all js script tag and file start here -->
+
+        <!-- fontwsonme script tag start here -->
+            <script src="./assets/fontawsome/js/all.min.js"></script>
+        <!-- fontwsonme script tag start here -->
+
+        <!-- Tab secton script start here -->
+        <script>
+            function openCity(evt, cityName) {
+              var i, tabcontent, tablinks;
+              tabcontent = document.getElementsByClassName("tabcontent");
+              for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+              }
+              tablinks = document.getElementsByClassName("tablinks");
+              for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+              }
+              document.getElementById(cityName).style.display = "flex";
+              evt.currentTarget.className += " active";
+            }
+            
+            // Get the element with id="defaultOpen" and click on it
+            document.getElementById("defaultOpen").click();
+        </script>
+        <!-- Tab section script end here -->
+
+        <!-- slick slider script tag start here -->
+        <script src="./assets/slick/js/jquri-min-js.js"></script>
+        <script src="./assets/slick/js/slick-min-js.js"></script>
+            <script>
+                $('.responsive').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+				arrows: false,
+                autoplay: false,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+    //             customPaging: function (slider, i) {
+    //     return slider.slickCurrentSlide + '/' + (i + 1);
+    // },
+                responsive: [
+                    {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                    },
+                    {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                    },
+                    {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                    }
+                ]
+                });
+            </script>
+
+			
+        <!-- slick slider script tag end here -->
+
+        <!-- popup start -->
+            <script>
+                var modal = document.getElementById("myModal");
+                var btn = document.getElementById("myBtn");
+                var span = document.getElementsByClassName("close")[0];
+                btn.onclick = function() {
+                modal.style.display = "block";
+                }
+                span.onclick = function() {
+                modal.style.display = "none";
+                }
+                window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+                }
+            </script>
+        <!-- popup end -->
+
+        <!-- search popup -->
+            <script>
+                var searchouter = document.getElementById("searchbox");
+                var btn = document.getElementById("searchbtn");
+                var span = document.getElementsByClassName("closesearch")[0];
+                btn.onclick = function() {
+                    searchouter.style.display = "block";
+                }
+                span.onclick = function() {
+                    searchouter.style.display = "none";
+                }
+                window.onclick = function(event) {
+                if (event.target == searchouter) {
+                    searchouter.style.display = "none";
+                }
+                }
+            </script>
+        <!-- search popup -->
+
+        <!-- side nav -->
+        <script>
+            function openNav() {
+              document.getElementById("mySidenav").style.width = "250px";
+            }
+            
+            function closeNav() {
+              document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+        <!-- side nav -->
+        <!-- all js script tag and file end here -->
+    </body>
+</html>
